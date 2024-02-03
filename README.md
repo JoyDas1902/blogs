@@ -1,4 +1,6 @@
-## Blogs App
+# Blogs App
+
+Share Your Creative Thoughts. Publish your passions, your way. Give your blog the perfect home. Create unique and beautiful blogs easily.
 
 First, install the dependencies:
 

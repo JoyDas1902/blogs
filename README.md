@@ -1,4 +1,4 @@
-## Mern App
+## Blogs App
 
 First, install the dependencies:
 
@@ -12,7 +12,17 @@ pnpm install
 bun install
 ```
 
-### create a .env file with your own MONGO, AUTH_SECRET, AUTH_URL, GITHUB_ID, GITHUB_SECRET
+Create a .env file using this.
+
+```bash
+MONGO=
+
+AUTH_SECRET=
+AUTH_URL=
+
+GITHUB_ID=
+GITHUB_SECRET=
+```
 
 run the development server:
 

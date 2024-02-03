@@ -1,13 +1,18 @@
-import Link from "next/link"
+import Link from 'next/link';
+import styles from './home.module.css';
 
 const NotFound = () => {
   return (
-    <div>
-      <h2>Not Found</h2>
+    <div className={styles.textContainer} style={{ gap: '20px' }}>
+      <h1>Not Found!</h1>
       <p>Sorry, the page you are looking for does not exist.</p>
-      <Link href="/">Return Home</Link>
+      <div className={styles.buttons}>
+        <Link href="/" className={styles.button}>
+          Return Home
+        </Link>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default NotFound
+export default NotFound;

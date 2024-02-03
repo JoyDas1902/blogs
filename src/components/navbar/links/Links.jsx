@@ -8,7 +8,7 @@ import { handleLogout } from "@/lib/action";
 
 const links = [
   {
-    title: "Homepage",
+    title: "Home",
     path: "/",
   },
   {
@@ -27,10 +27,6 @@ const links = [
 
 const Links = ({session}) => {
   const [open, setOpen] = useState(false);
-
-  // TEMPORARY
-  // const session = true;
-  // const isAdmin = true;
 
   return (
     <div className={styles.container}>
